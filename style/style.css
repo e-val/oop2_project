@@ -1,0 +1,88 @@
+.drawing-area{
+	-fx-background-color: #f9f9f9;
+}
+
+.class-view{
+	-fx-background-color: #00BCD4;
+	-fx-border-color:#000;
+	-fx-border-style:solid;
+	-fx-border-width:1;
+}
+
+.class-view.selected{
+	-fx-border-color:#ff9800;
+	-fx-border-style:dashed;
+	-fx-border-width:1;
+}
+
+.toolbar{
+	-fx-background-color:transparent;
+}
+
+.toolbar .button{
+	-fx-focus-color: transparent;
+}
+
+.attribute-field-hover{
+	-fx-background-color: #4DD0E1;
+}
+
+.attribute-list-view{
+	-fx-background-color:transparent;
+}
+
+
+.insertion-indicator{
+	-fx-border-color:#ff9800;
+	-fx-border-style:solid;
+	-fx-border-insets:0;
+	-fx-border-width:1;
+}
+
+
+.button.plus{
+
+}
+
+.button.minus{
+	
+}
+
+.class-view .button{
+	-fx-padding:2;
+	-fx-z-index: 100;
+	-fx-background-radius: 100;
+	-fx-border-width:0;
+	
+}
+
+
+.selection-pane{
+	-fx-border-color:#ff9800;
+	-fx-border-style:dashed;
+	-fx-border-width:1;
+}
+
+.scroll-pane{
+	-fx-focus-color: transparent;
+}
+
+.class-view.dragging{
+	-fx-effect: dropshadow(three-pass-box, #555, 20, 0.2, 0, 0);
+}
+
+
+.editable-text-view .text-field{
+	-fx-focus-color: transparent;
+	-fx-background-color: rgba(255, 255, 255, 1);
+	-fx-background-radius:0;
+}
+.editable-text-view{
+	-fx-border-insets: 0;
+	-fx-padding: 0;
+	-fx-margin:0;
+}
+.editable-text-view .label{
+	-fx-padding: 5 9;
+	-fx-text-alignment:left;
+}
